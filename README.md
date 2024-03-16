@@ -5,6 +5,7 @@ This is a C++ implementation of Caesar's cipher, a simple encryption technique w
 
 Features
 Encoding: Encode plaintext using a specified shift (cypher).
+
 Decoding: Automatically decode ciphertext using frequency analysis.
 
 Acknowledgments
