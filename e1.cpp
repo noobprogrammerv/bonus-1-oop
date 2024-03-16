@@ -41,22 +41,18 @@ char shift(char c, int offset) {
     if (islower(c)) {
         if (c - offset < 'a') {
             c = c + 26 - offset;
-        }
-        else {
+        } else {
             c = c - offset;
         }
         return c;
-    }
-    else if (isupper(c)) {
+    } else if (isupper(c)) {
         if (c - offset < 'A') {
             c = c + 26 - offset;
-        }
-        else {
+        } else {
             c = c - offset;
         }
         return c;
-    }
-    else {
+    } else {
         return c;
     }
 }
@@ -139,9 +135,9 @@ int main() {
 
     /*
     Example for 'b' option:
-    
+
     Uf ime ftq nqef ar fuyqe, uf ime ftq iadef ar fuyqe, uf ime ftq msq ar iuepay, uf ime ftq msq ar raaxuetzqee, uf ime ftq qbaot ar nqxuqr, uf ime ftq qbaot ar uzodqpgxufk, uf ime ftq eqmeaz ar xustf, uf ime ftq eqmeaz ar pmdwzqee, uf ime ftq ebduzs ar tabq, uf ime ftq iuzfqd ar pqebmud.
-    
+
     */
     return 0;
 }
